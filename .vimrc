@@ -27,9 +27,6 @@ set fileformats=unix,dos,mac     "line feed different in different mode
 set completeopt=menuone,longest
 set pastetoggle=<F4>
 set complete=.,w,b,k
-set nofoldenable
-set foldlevel=99
-set foldcolumn=0
 set insertmode
 
 highlight TagbarHighlight guifg=Green ctermfg=Green
