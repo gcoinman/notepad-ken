@@ -11,8 +11,13 @@ apt-get install ctags cscope wget unzip -y && wget https://github.com/langsim/no
 
 
 ctrl-up \033[1;5A ^[[1;5A
+
 ctrl-down \033[1;5B ^[[1;5B
+
 ctrl-left \033[1;5C ^[[1;5C
+
 ctrl-right \033[1;5D ^[[1;5D
+
 ctrl-end \033[1;5F ^[[1;5F
+
 ctrl-home \033[1;5H ^[[1;5H
