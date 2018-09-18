@@ -77,15 +77,13 @@ inoremap <c-z> <c-o>u
 inoremap <c-y> <c-o><c-r>
 inoremap <c-v> <c-o>P
 inoremap <c-a> <c-o>gg<c-o>VG
-inoremap <c-r> <c-o>v
-inoremap <c-e> <c-o>V
-vnoremap <c-w> <esc>
-inoremap <c-w> <c-o>:noh<cr>
+inoremap <c-f> <c-o>v
+inoremap <c-d> <c-o>V
 vnoremap <c-c> y
 vnoremap <c-x> d
 inoremap <c-o> <esc><c-o>:set insertmode<cr>
 inoremap <c-t> <c-o>:FindAll <c-r>=expand("<cword>")<cr>
-inoremap <c-f> <c-o>:Find <c-r>=expand("<cword>")<cr>
+inoremap <c-r> <c-o>:Find <c-r>=expand("<cword>")<cr>
 inoremap <c-g> <c-o>:
 inoremap <silent> <F2> <esc>:WMToggle<cr>:TagbarToggle<cr><c-w>l:set insertmode<cr>
 inoremap <F3> <esc>:!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q<cr><cr>:cs kill cscope.out<cr>:!cscope -Rb<cr><cr>:cs add cscope.out<cr>i
