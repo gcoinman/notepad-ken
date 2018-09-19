@@ -15,7 +15,10 @@ set updatetime=500               "tagbar response 800ms
 set showmatch matchtime=0        "show the other bracket
 set wmnu wildmode=longest:full   "when in command mode can use auto complete same as bash
 set expandtab tabstop=4          "expand the tab to 4 space
-set si ai ci cinkeys-=0# 
+set si 
+set ai 
+set ci 
+set cinkeys-=0# 
 set cinoptions=g0,:0   
 set shiftwidth=4                 "make the indent 4 length
 set softtabstop=4                "backspace can del 4 space
@@ -48,6 +51,11 @@ let g:winManagerWindowLayout='NERDTree|BufExplorer'
 let g:winManagerWidth=40
 let g:persistentBehaviour = 0
 let g:NERDTree_title = "[NERDTree]"
+let g:go_highlight_array_whitespace_error = 0
+let g:go_highlight_chan_whitespace_error = 0
+let g:go_highlight_extra_types = 0
+let g:go_highlight_space_tab_error = 0
+let g:go_highlight_trailing_whitespace_error = 0
 
 function! NERDTree_Start()
     exe 'q'
@@ -79,6 +87,7 @@ inoremap <c-v> <c-o>P
 inoremap <c-a> <c-o>gg<c-o>VG
 inoremap <c-f> <c-o>v
 inoremap <c-d> <c-o>V
+vnoremap <c-d> <esc>
 vnoremap <c-c> y
 vnoremap <c-x> d
 inoremap <c-o> <esc><c-o>:set insertmode<cr>
