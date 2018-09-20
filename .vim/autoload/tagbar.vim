@@ -964,7 +964,7 @@ function! s:CreateAutocommands() abort
 
     augroup TagbarAutoCmds
         autocmd!
-        autocmd CursorHold __Tagbar__ call s:ShowPrototype(1)
+        autocmd CursorHoldI __Tagbar__ call s:ShowPrototype(1)
         autocmd WinEnter   __Tagbar__ call s:SetStatusLine('current')
         autocmd WinLeave   __Tagbar__ call s:SetStatusLine('noncurrent')
 
@@ -981,7 +981,7 @@ function! s:CreateAutocommands() abort
                     \ s:AutoUpdate(fnamemodify(expand('<afile>'), ':p'), 1)
         " BufReadPost is needed for reloading the current buffer if the file
         " was changed by an external command; see commit 17d199f
-        autocmd BufReadPost,BufEnter,CursorHold,FileType * call
+        autocmd BufReadPost,BufEnter,CursorHoldI,FileType * call
                     \ s:AutoUpdate(fnamemodify(expand('<afile>'), ':p'), 0)
         autocmd BufDelete,BufUnload,BufWipeout * call
                     \ s:known_files.rm(fnamemodify(expand('<afile>'), ':p'))
