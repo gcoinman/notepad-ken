@@ -1,8 +1,8 @@
-centos, redhat, fedora安装:
+Centos、Redhat、Fedora安装:
 
     yum install ctags cscope wget unzip -y && wget https://github.com/langsim/notepad-ken/archive/master.zip -O master.zip && unzip -o master.zip && rm -rf ~/.vim && \cp -rf notepad-ken-master/.vim* ~ ; rm -rf master.zip notepad-ken-master
 
-debian, ubuntu安装:
+Debian、Ubuntu安装:
 
     apt-get install ctags cscope wget unzip -y && wget https://github.com/langsim/notepad-ken/archive/master.zip -O master.zip && unzip -o master.zip && rm -rf ~/.vim && \cp -rf notepad-ken-master/.vim* ~ ; rm -rf master.zip notepad-ken-master
 
@@ -47,8 +47,16 @@ debian, ubuntu安装:
     ctrl-home \033[1;5H ^[[1;5H
 
 Q&A
-
-    本身就是一个vim脚本,为什么项目名没有vim字样
+    项目诞生缘由
+        减少读写代码所需的手指运动量、大脑思维量和CPU占用率。
+    开发主题
+        简单即美。
+    这东西是啥?
+        将vim配置成一个好用的代码编辑器的vim脚本.读写C/C++/Python/Golang代码已测好用。
+    兼容性怎么样?
+        不怎么样,运行安装命令后部分终端就可以直接用了,部分终端还需要配置下按键序列才可用,有没有一些终端根本没法使用我不清楚。
+    比原生vim好在哪里?
+        最大的好处,不用再按ESC了,比我以前用到的VIM功能一点没少.
+    本身就是一个vim脚本,为什么项目名没有vim字样?
         因为vim以快捷键的闻名,而这个项目里找不到vim快捷键的影子.
-    适配语言
-        已测好用C/C++/Python/golang
+
