@@ -66,7 +66,7 @@ function! NERDTree_IsValid()
     return 1
 endfunction
 
-command! -nargs=+ FindAll execute '!grep --color --exclude=tags --exclude=cscope.out -nR . -e <args>' | noh
+command! -nargs=+ FindInFolder execute '!grep --color --exclude=tags --exclude=cscope.out -nR . -e <args>' | noh
 command! -nargs=+ Find execute ':!grep --color -n % -e <args>' | noh
 
 nnoremap <silent> <c-left> :wincmd h<cr>:set insertmode<cr>
@@ -91,7 +91,7 @@ vnoremap <c-d> <esc>
 vnoremap <c-c> y
 vnoremap <c-x> d
 inoremap <c-o> <esc><c-o>:set insertmode<cr>
-inoremap <c-t> <c-o>:FindAll <c-r>=expand("<cword>")<cr>
+inoremap <c-t> <c-o>:FindInFolder <c-r>=expand("<cword>")<cr>
 inoremap <c-r> <c-o>:Find <c-r>=expand("<cword>")<cr>
 inoremap <c-g> <c-o>:
 inoremap <silent> <F2> <esc>:WMToggle<cr>:TagbarToggle<cr><c-w>l:set insertmode<cr>
