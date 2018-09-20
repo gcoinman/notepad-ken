@@ -6,14 +6,18 @@ Debian、Ubuntu安装:
 
     apt-get install ctags cscope wget unzip -y && wget https://github.com/langsim/notepad-ken/archive/master.zip -O master.zip && unzip -o master.zip && rm -rf ~/.vim && \cp -rf notepad-ken-master/.vim* ~ ; rm -rf master.zip notepad-ken-master
 
-快捷键 
+使用方法
+
+    在项目的根目录打开vim，然后可通过目录树打开文件，如语言支持，并希望使用函数跳转等功能，需要按F3更新索引。
+
+快捷键
 
     F2 打开IDE模式
-    F3 更新C/C++索引
+    F3 在C/C++、Python等语言中可以更新索引
     F4 粘贴模式
     F5 高亮光标下单词
     F6 显示隐藏字符
-    F7 跳转到变量函数定义
+    F7 跳转到变量或函数定义
     F8 搜索变量或函数
     F9 保存
     F10 退出
@@ -27,6 +31,7 @@ Debian、Ubuntu安装:
     ctrl-d 进入行选模式
     ctrl-f 进入选择模式
     ctrl-g 进入命令模式
+    ctrl-z 撤销
     ctrl-x 剪切
     ctrl-c 复制
     ctrl-v 粘贴
