@@ -110,3 +110,5 @@ if has("cscope")
         cs add cscope.out
     endif
 endif
+
+autocmd BufWinEnter * setlocal insertmode
