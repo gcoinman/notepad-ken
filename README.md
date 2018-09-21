@@ -25,7 +25,6 @@ Debian、Ubuntu安装:
     ctrl-r 当前文件里搜索
     ctrl-t 当前目录搜索
     ctrl-y 重做
-    ctrl-u 删除到行首
     ctrl-o 跳转到光标上个位置
     ctrl-a 全选
     ctrl-d 进入行选模式
@@ -39,8 +38,6 @@ Debian、Ubuntu安装:
     ctrl-right 跳转到右边窗口
     ctrl-up 跳转到上边窗口
     ctrl-down 跳转到下边窗口
-    ctrl-home 跳转到文件开头
-    ctrl-end 跳转到文件结尾
 
 部分终端需要配置的按键序列
 
@@ -48,8 +45,8 @@ Debian、Ubuntu安装:
     ctrl-down \033[1;5B ^[[1;5B
     ctrl-left \033[1;5C ^[[1;5C
     ctrl-right \033[1;5D ^[[1;5D
+    ctrl-home \033[1;5H ^[[1;5H    
     ctrl-end \033[1;5F ^[[1;5F
-    ctrl-home \033[1;5H ^[[1;5H
 
 Q&A
 
