@@ -22,8 +22,8 @@ Debian、Ubuntu安装:
     F9 保存
     F10 退出
 
-    ctrl-r 当前文件搜索
-    ctrl-t 当前目录搜索
+    ctrl-r 在当前文件里搜索
+    ctrl-t 在当前目录及子目录搜索
     ctrl-y 重做
     ctrl-a 全选
     ctrl-d 进入行选模式
@@ -79,7 +79,7 @@ Function Key
     F10 quit
 
     ctrl-r search in current file
-    ctrl-t search in current folder(include child folder)
+    ctrl-t search in current folder and child folder
     ctrl-y redo
     ctrl-a select all
     ctrl-d switch to row select mode
