@@ -8,7 +8,7 @@ Debian、Ubuntu安装:
 
 使用方法
 
-    在项目的根目录打开vim，然后可通过目录树打开文件，如果语言支持，并希望使用函数跳转等功能，第一次打开项目时需要按F3更新索引。
+    在项目的根目录打开vim，然后按F2打开目录树，如果语言支持，并希望使用函数跳转等功能，第一次打开项目时需要按F3更新索引。
 
 快捷键
 
@@ -24,6 +24,7 @@ Debian、Ubuntu安装:
 
     ctrl-r 在当前文件里搜索
     ctrl-t 在当前目录及子目录搜索
+    :%s /patten1/patten2/g 替换
     ctrl-y 重做
     ctrl-a 全选
     ctrl-d 进入行选模式
@@ -80,6 +81,7 @@ Function Key
 
     ctrl-r search in current file
     ctrl-t search in current folder and child folder
+    :%s /patten1/patten2/g replace    
     ctrl-y redo
     ctrl-a select all
     ctrl-d switch to row select mode
