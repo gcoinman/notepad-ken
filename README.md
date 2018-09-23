@@ -8,12 +8,12 @@ Debian、Ubuntu安装:
 
 使用方法
 
-    在项目的根目录打开vim，然后按F2打开目录树，如果语言支持，并希望使用函数跳转等功能，第一次打开项目时需要按F3更新索引。
+    在项目的根目录打开vim，按F2打开目录树，按ctrl-left将光标移动到目录树，C/C++项目第一次打开时需要按F3更新索引。
 
 快捷键
 
     F2 打开IDE模式
-    F3 在C/C++、Python等语言中可以更新索引
+    F3 在C/C++中可以更新索引
     F4 粘贴模式
     F5 高亮光标下单词
     F6 显示隐藏字符
@@ -65,12 +65,12 @@ Debian、Ubuntu Install:
 
 Operating Instruction
 
-    Open vim in project root dir，press F2 and ctrl-left to use file tree. If language support and want to use function of jumping to variable defination，press F3 to update index when open project first time.
+    Open vim in project root dir，press F2 and ctrl-left to use file tree. Press F3 to update index when open C/C++ project first time.
 
 Function Key
 
     F2 open IDE mode
-    F3 In C/C++、Python can update index
+    F3 In C/C++ update index
     F4 paste mode
     F5 highlight word under cursor
     F6 display the hidden character
