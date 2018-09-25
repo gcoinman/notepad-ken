@@ -24,7 +24,6 @@ Debian、Ubuntu安装:
 
     ctrl-r 在当前文件里搜索
     ctrl-t 在当前目录及子目录搜索
-    :%s /patten1/patten2/g 替换
     ctrl-y 重做
     ctrl-a 全选
     ctrl-d 进入行选模式
@@ -38,6 +37,7 @@ Debian、Ubuntu安装:
     ctrl-right 跳转到右边窗口
     ctrl-up 跳转到上边窗口
     ctrl-down 跳转到下边窗口
+    :%s /patten1/patten2/g 替换
 
 部分终端需要配置的按键序列
 
@@ -51,9 +51,9 @@ Debian、Ubuntu安装:
 Q&A
 
     项目诞生缘由
-        减少读写代码所需的手指运动量、大脑思维量和CPU占用率。
+        减少读写代码所需的大脑思维量、手指运动量和CPU占用率
     开发主题
-        简单即美。
+        简单即美
         
 Centos、Redhat、Fedora Install:
 
@@ -81,7 +81,6 @@ Function Key
 
     ctrl-r search in current file
     ctrl-t search in current folder and child folder
-    :%s /patten1/patten2/g replace    
     ctrl-y redo
     ctrl-a select all
     ctrl-d switch to row select mode
@@ -95,6 +94,7 @@ Function Key
     ctrl-right jump to right window
     ctrl-up jump to up window
     ctrl-down jump to down window
+    :%s /patten1/patten2/g replace
 
 some teminal need to config
 
@@ -108,6 +108,6 @@ some teminal need to config
 Q&A
 
     Target
-        Consuming less finger, less brain and less cpu to read and write code
+        Consuming less brain, less finger and less cpu to read and write code
     Theme
         Pretty is simple
